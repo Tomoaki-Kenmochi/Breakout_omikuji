@@ -170,13 +170,13 @@ function drawImage() {
 
 function draw() {
   // ctx.clearRect(0, 0, $canvas.width, $canvas.height);
+  drawImage();
   drawBall();
   drawBricks();
   drawPaddle();
   drawScore();
   drawLives();
   collisionDetection();
-  drawImage();
 
   if(x + dx > $canvas.width-ballRadius || x + dx < ballRadius) {
     dx = -dx;

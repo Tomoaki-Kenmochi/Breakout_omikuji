@@ -302,7 +302,7 @@ function omikujiResult() {
     ctx.fillStyle = "#402717";
     ctx.fillText("自分の思っていることが", 90, 312);
     ctx.fillText("うまくいかない時もあるでしょう。", 90, 342);
-    ctx.fillText("努力と丹念続けていけば、", 90, 372);
+    ctx.fillText("努力と鍛錬を続けていけば、", 90, 372);
     ctx.fillText("どこかで実をむすぶでしょう。", 90, 402);
   }
 }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ブロック崩しゲーム</title>
+  <link rel="stylesheet" 
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <style>
+    * { padding: 0; margin: 0; }
+    canvas { background: #eee; display: block; margin: 0 auto; }
+    body { background-color: #eee; }
+    ul {
+      list-style: none;
+      font-size: 1.25rem;
+      font-family: sans-serif;
+      color: #432;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <canvas id="myCanvas" width="480" height="420"></canvas>
+  </div>
+
+  <div class="container mt-3 d-flex justify-content-center">
+    <button id="startButton" type="button" class="btn btn-primary mr-5">Start</button>
+    <button id="reloadButton" type="button" class="btn btn-secondary ml-5 btn-sm">Reload</button>
+  </div>
+
+  <div class="container mt-3 justify-content-center text-center">
+    <ul>
+      <li>クリアするとおみくじが引けます</li>
+      <li>3ライフ制でミスをするとボールの速度が上がっていきます</li>
+      <li>パドルの端にボールを当てると跳ね返る方向が変わります</li>
+      <li>Let's play!</li>
+    </ul>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

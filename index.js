@@ -162,7 +162,7 @@ function drawImage() {
     ctx.drawImage(img1, 0, 0);
   }
   const img2 = new Image();
-  img2.src = "images/2310066.jpg";
+  img2.src = "images/2310066b.jpg";
   img2.onload = () => {
     ctx.drawImage(img2, 74, 0, 333, 248);
   }
@@ -236,11 +236,11 @@ function draw() {
   // }
 }
 
-function drawClearMessage() {
-  ctx.font = "16px Arial";
-  ctx.fillStyle = "#0095dd";
-  ctx.fillText("クリア！", 210, 280);
-}
+// function drawClearMessage() {
+//   ctx.font = "16px Arial";
+//   ctx.fillStyle = "#0095dd";
+//   ctx.fillText("クリア！", 210, 280);
+// }
 
 function drawOmikujiButton() {
   ctx.beginPath();
@@ -302,7 +302,7 @@ function omikujiResult() {
     ctx.fillStyle = "#402717";
     ctx.fillText("自分の思っていることが", 90, 312);
     ctx.fillText("うまくいかない時もあるでしょう。", 90, 342);
-    ctx.fillText("努力と丹念続けていけば、", 90, 372);
+    ctx.fillText("努力と鍛錬を続けていけば、", 90, 372);
     ctx.fillText("どこかで実をむすぶでしょう。", 90, 402);
   }
 }

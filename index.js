@@ -266,7 +266,7 @@ function omikujiStart() {
 function omikujiResult() {
   let rand = Math.floor( Math.random() * 100) ; //おみくじの目の生成
   if(rand <= 24) {
-    ctx.font = "25px sans-serif";
+    ctx.font = "bold 25px sans-serif";
     ctx.fillStyle = "#402717";
     ctx.fillText("大吉", 210, 280);
     ctx.font = "20px sans-serif";
@@ -276,7 +276,7 @@ function omikujiResult() {
     ctx.fillText("積極的に行動しましょう。", 90, 380);
   }
 	if(24 < rand && rand <= 49) {
-    ctx.font = "25px sans-serif";
+    ctx.font = "bold 25px sans-serif";
     ctx.fillStyle = "#402717";
     ctx.fillText("吉", 223, 280);
     ctx.font = "20px sans-serif";
@@ -286,7 +286,7 @@ function omikujiResult() {
     ctx.fillText("新しく試したこともうまくいきます。", 90, 380);
   }
 	if(49 < rand && rand <= 74) {
-    ctx.font = "25px sans-serif";
+    ctx.font = "bold 25px sans-serif";
     ctx.fillStyle = "#402717";
     ctx.fillText("中吉", 210, 280);
     ctx.font = "20px sans-serif";
@@ -295,7 +295,7 @@ function omikujiResult() {
     ctx.fillText("思いがけない幸が訪れるでしょう。", 60, 350);
   }
 	if(74 < rand && rand <= 99) {
-    ctx.font = "25px sans-serif";
+    ctx.font = "bold 25px sans-serif";
     ctx.fillStyle = "#402717";
     ctx.fillText("小吉", 210, 280);
     ctx.font = "20px sans-serif";
